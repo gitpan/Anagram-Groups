@@ -1,7 +1,6 @@
 package Anagram::Groups;
 
 use 5.006;
-#use strict;
 use warnings FATAL => 'all';
 require Exporter;
 @ISA = qw(Exporter);
@@ -9,23 +8,24 @@ require Exporter;
 
 =head1 NAME
 
-Anagram::Groups - The great new Anagram::Groups!
+Anagram::Groups - The great new Anagram::Groups which will show us all the anagrams for the given array of strings!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
 
     use Anagram::Groups;
-    my $array = ["reap", "pear", "listen", "silent"];
-    my $foo = Anagram::Groups->new();
-    print $foo($array);
+    use Data::Dumper;
+    my $array_ref = ["reap", "pear", "listen", "silent"];
+    my $anagram_groups = anagram_group($array_ref);
+    print Dumper($anagram_groups);
     ...
 
 =head1 EXPORT

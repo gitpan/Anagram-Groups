@@ -1,5 +1,5 @@
 {
-   "abstract" : "The great new Anagram::Groups!",
+   "abstract" : "The great new Anagram::Groups which will show us all the anagrams for the given array of strings!",
    "author" : [
       "isunix <isunix1989@gmail.com>"
    ],
@@ -28,7 +28,7 @@
    "provides" : {
       "Anagram::Groups" : {
          "file" : "lib/Anagram/Groups.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -37,5 +37,5 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
